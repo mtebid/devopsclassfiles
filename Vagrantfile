@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
 	v.vm.provider :virtualbox do |v|
 	  v.customize ["modifyvm", :id, "--name", "ansible-node2"]
 	  v.customize ["modifyvm", :id, "--memory", 1024]
-	  v.customize ["modifyvm", :id, "--cpus", 1]
+	  v.customize ["modifyvm", :id, "--cpus", 2]
     end	 
  end
 end
