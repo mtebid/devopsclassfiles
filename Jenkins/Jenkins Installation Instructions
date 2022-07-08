@@ -1,7 +1,7 @@
 # Steps to install Jenkins at ubuntu 18.04
 
 sudo apt-get update
-sudo apt install openjdk-8-jdk -y
+sudo apt install openjdk-11-jdk -y
 wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
 
 or 
