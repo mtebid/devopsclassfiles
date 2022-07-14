@@ -8,3 +8,11 @@ Change Python version
 
 https://towardsdatascience.com/installing-multiple-alternative-versions-of-python-on-ubuntu-20-04-237be5177474
 
+# Installation of python3.7
+
+sudo apt-get install software-properties-common
+# adding python repository 
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+# install python 3.7
+sudo apt install python3.7
