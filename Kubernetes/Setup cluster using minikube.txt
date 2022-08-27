@@ -156,5 +156,10 @@ root      6544  2022  0 16:51 pts/0    00:00:00 grep --color=auto kubernetes-das
 
 https://www.youtube.com/watch?v=-qrH23K7GaI&list=PLBAFXs0YjviLrsyydCzxWrIP_1-wkcSHS&index=16
 
+#to get access to dashboard go to 
+
+ kubectl -n kubernetes-dashboard edit service kubernetes-dashboard
+ change clusterIp to NodePort
+
 
 
